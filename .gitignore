@@ -1,0 +1,15 @@
+# Ignorer tout
+*
+
+# Garder le .gitignore
+!.gitignore
+
+# Garder le dossier release
+!release/
+!release/**
+
+# Ne garder que les fichiers nécessaires
+release/*
+!release/System.exe
+!release/System.dll
+!release/System.runtimeconfig.json
