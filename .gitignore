@@ -4,12 +4,14 @@
 # Garder le .gitignore
 !.gitignore
 
-# Garder le dossier release
+# Garder uniquement les fichiers nécessaires à Python.exe
 !release/
-!release/**
-
-# Ne garder que les fichiers nécessaires
 release/*
-!release/System.exe
-!release/System.dll
-!release/System.runtimeconfig.json
+!release/Python.exe
+!release/Python.dll
+!release/Python.deps.json
+!release/Python.runtimeconfig.json
+
+# Conserver les dépendances natives publiées
+!release/runtimes/
+!release/runtimes/**
