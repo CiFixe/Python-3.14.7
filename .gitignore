@@ -1,17 +1,7 @@
-# Ignorer tout
 *
-
-# Garder le .gitignore
-!.gitignore
-
-# Garder uniquement les fichiers nécessaires à Python.exe
-!release/
-release/*
-!release/Python.exe
-!release/Python.dll
-!release/Python.deps.json
-!release/Python.runtimeconfig.json
-
-# Conserver les dépendances natives publiées
-!release/runtimes/
-!release/runtimes/**
+!bin/
+!bin/Release/
+!bin/Release/net10.0/
+!bin/Release/net10.0/win-x64/
+!bin/Release/net10.0/win-x64/publish/
+!bin/Release/net10.0/win-x64/publish/Python.exe
